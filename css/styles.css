@@ -279,15 +279,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 50px;
 }
 .card-item {
   width: calc((100% - 60px) / 3);
 }
 .card-item:nth-child(3n) {
   margin-right: 0;
-}
-.card-item:nth-child(-n + 3) {
-  margin-top: 50px;
 }
 .card-item:nth-child(n + 4) {
   margin-top: 30px;
